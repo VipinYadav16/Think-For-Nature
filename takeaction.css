@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body {
+    background-image: url('assets/img.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.nav {
+    background-image: url('assets/navimage.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: inter, serif;
+}
+.logo img{
+    cursor: pointer;
+    height: 120px;
+}
+li{
+    cursor: pointer;
+    padding: 0px 25px;
+    list-style-type: none;
+    transition: all 0.1s ease;
+}
+.navlinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlinks a {
+    color: rgb(15, 101, 15);
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 25px;
+    transition: all 0.1s ease;
+}
+
+.navlinks a:hover {
+    color: rgb(0, 0, 0);
+}
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: 1px solid rgb(100, 178, 100);
+    background-color:white;
+    box-shadow: 1px 1px 5px rgba(11, 138, 24, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content:center;
+    margin-top: 180px;
+    font-size: 40px;
+    font-weight: 350;
+    color: rgb(9, 82, 9);
+}
+.boxx1, .boxx2 , .boxx3, .boxx4, .boxx5, .boxx6, .boxx7, .boxx8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.boxx1 img, .boxx2 img, .boxx3 img , .boxx4 img , .boxx5 img , .boxx6 img , .boxx7 img , .boxx8 img {
+    width: 200px;
+    height: auto;
+} 
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 30vw;
+}
+h4{
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 25px;
+    color: rgb(29, 122, 29);
+}
+p{
+    text-align:justify;
+    line-height: 1.5;
+    font-weight: 350;
+    font-size: 20px;
+    color: rgb(24, 174, 24);
+}
+
+.foot{
+    border-top: 2px solid rgb(34, 183, 39);
+    background-image: url('assets/img.jpg');
+    box-shadow: 1px 1px 5px rgba(136, 216, 71, 0.5);
+    margin-top: 60px;
+    position: sticky;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(177, 224, 178);
+    width: 100%;
+    height: 15vh;
+}
+.image img{
+    width: 100px;
+}
+.footbox p{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(61, 59, 59);
+}
+.plink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plink img{
+    width: 40px;
+    margin: 5px 10px;
+    height: auto;
+}
+.btnb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnb button{
+    cursor: pointer;
+    box-shadow: 3px 5px 6px 3px rgb(124, 161, 122);
+    border: none;
+    border-radius: 20px;
+    padding: 15px 35px;
+    color: white;
+    background-color: rgb(31, 124, 29);
+    font-size: 25px;
+    font-weight: 380;
+}
+@media (max-width: 765px){
+    .logo img{
+        height: 70px;
+    }
+    li{
+        padding: 0px 2px;
+    }
+    .navlinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navlinks a {
+        font-size: 2.8vw;
+        font-weight: 400;
+        padding: 3px;
+    }
+    .nav{
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+    }
+    .image img{
+        width: 20vw;
+        padding: 5px;
+    }
+    .footbox p{
+        text-align: center;
+        font-weight: 500;
+        font-size: 4vw;
+        color: rgb(61, 59, 59);
+        padding: 5px;
+    }
+    .box{
+        margin-top: 120px;
+        font-size: 25px;
+    }
+    h4{
+        font-size: 18px;
+        text-align: center;
+        line-height: 1.2;
+        width: 50vw;
+    }
+    p{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 1.2;
+        width: 50vw;
+    }
+    .boxx1 img, .boxx2 img, .boxx3 img , .boxx4 img , .boxx5 img , .boxx6 img , .boxx7 img , .boxx8 img {
+        width: 30vw;
+        height: auto;
+    } 
+    .boxx1, .boxx2 , .boxx3, .boxx4, .boxx5, .boxx6, .boxx7, .boxx8{
+        gap: 40px;
+    } 
+    .btnb button{
+        margin-top: 15px;
+        padding: 3vw 6vw;
+        font-size: 18px;
+    }
+
+}
+                    
