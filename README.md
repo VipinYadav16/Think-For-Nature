@@ -27,3 +27,6 @@ This project aims to educate and empower individuals to take action against clim
 ## Deployment
 
 This project is deployed using Vercel and can be accessed at [thinkfornature.vercel.app](https://thinkfornature.vercel.app).
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
